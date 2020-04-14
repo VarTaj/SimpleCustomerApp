@@ -56,6 +56,7 @@ $(document).ready(function(){
             <textarea id="bio" name="user_bio"></textarea>
         </fieldset>
         <fieldset>
+	    <legend><span class="number">2</span>Your Job Details</legend>    	
             <label for="job">Job Role:</label>
             <select id="job" name="user_job" class="required">
                 <optgroup label="Web">
