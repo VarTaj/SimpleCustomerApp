@@ -20,5 +20,10 @@
 		</plugin>
 		
 	</plugins>
-  </build>	
+  </build>
+<dependency>
+    <groupId>org.codehaus.sonar-plugins</groupId>
+    <artifactId>sonar-pdfreport-plugin</artifactId>
+    <version>1.4</version>
+</dependency>
 </project>
