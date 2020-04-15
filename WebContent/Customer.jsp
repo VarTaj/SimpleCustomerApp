@@ -49,6 +49,7 @@ $(document).ready(function(){
             <input type="radio" id="over10" value=">11" name="experience"><label for="over_10" class="light"> 11+ yrs</label>
         </fieldset>
         <fieldset>
+	    <legend><span class="number">1</span>Your Details</legend>
             <label for="bio">Biography:</label>
             <textarea id="bio" name="user_bio"></textarea>
         </fieldset>
