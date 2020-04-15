@@ -3,7 +3,10 @@
     pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Demo With Customer Details</title>
 <link rel="stylesheet" href="css/cust_css/main.css">
 <link rel="stylesheet" type="text/css" href="header.css" media="all" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -46,7 +49,6 @@ $(document).ready(function(){
             <input type="radio" id="over10" value=">11" name="experience"><label for="over_10" class="light"> 11+ yrs</label>
         </fieldset>
         <fieldset>
-            <legend><span class="number">2</span>Your profile</legend>
             <label for="bio">Biography:</label>
             <textarea id="bio" name="user_bio"></textarea>
         </fieldset>
