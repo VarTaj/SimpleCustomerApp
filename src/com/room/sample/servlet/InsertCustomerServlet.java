@@ -15,11 +15,11 @@ public class InsertCustomerServlet extends HttpServlet{
     private static final long serialVersionUID = 1L;
 
 
-    public void doPost1(HttpServletRequest request, HttpServletResponse response){
-        try 
+    public void doPost(HttpServletRequest request, HttpServletResponse response){
+        try {
 
         // Get the customer value submitted from Customer.jsp page through HttpServletRequest object 
-        	            
+        	String mobile=request.getParameter("mobile");            
             //Set the Customer values into Customer Bean or POJO(Plain Old Java Object) class
             Customer customer=new Customer();
             customer.setName(request.getParameter("name"));
