@@ -17,7 +17,7 @@
 $(document).ready(function(){
   $("#signup_form").validate();
 });
-</script>
+<script>
 </head>
 <body>
 	<div id="header">		
